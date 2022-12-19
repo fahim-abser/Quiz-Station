@@ -1,0 +1,16 @@
+.bold{
+    font-weight: 700;
+}
+.body{
+    margin: 30px 50px;
+    text-align: left;
+    color: aquamarine;
+}
+.body span{
+    color: orangered;
+}
+@media only screen and (max-width: 600px) {
+   .body{
+    text-align: justify;
+   }
+  }

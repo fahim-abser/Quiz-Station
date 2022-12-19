@@ -1,0 +1,37 @@
+.flex {
+   display: flex;
+   padding: 20px;
+}
+img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 0 70px;
+}
+
+.gift :hover{
+    color: orangered;
+}
+
+.text{
+    text-align: left;
+    color: orangered;
+}
+.text :hover{
+    color: rgb(255, 255, 255);
+}
+.last{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .flex{
+        display: block;
+    }
+    .text{
+        text-align: center;
+    }
+    .first{
+        padding-top: 30px;
+    }
+  }

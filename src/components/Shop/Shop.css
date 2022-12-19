@@ -1,0 +1,13 @@
+.Topics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Topics {
+        display: block;
+    }
+
+}

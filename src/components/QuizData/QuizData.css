@@ -1,0 +1,27 @@
+.size{
+    font-size: 20px;
+    width: 590px;
+    color: orangered;
+}
+/* bg-gray-100 dark:bg-gray-900 mx-6 h-16 w-auto mb-4 rounded-md flex items-center */
+.ans-border{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+    margin: 5px;
+    color: aqua;
+    margin-left: 100px;
+}
+
+.eye{
+    border: none;
+    left: 200px;
+}
+.full-card{
+    border: 1px solid orangered;
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
